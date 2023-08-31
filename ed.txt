@@ -1,0 +1,66 @@
+gke_academic-matter-394807_us-central1_autopilot-cluster-1
+
+gke_academic-matter-394807_us-central1_autopilot-cluster-1
+
+gke_academic-matter-394807_us-central1_autopilot-cluster-1
+
+kubectl config use-context gke_[ProjectId]_[DataCenter]_[ClusterName]
+
+gke_academic-matter-394807_us-central1_autopilot-cluster-1
+
+
+
+
+"date": 1686696391622,
+"imageSHA256": "ae63596d7c68464a00eb1058747ffc8a4149270b9438bf2a5db2de612b48d806"
+
+
+  {
+    "name": "Ergo Miners #1998",
+    "description": "“Ergo Miner NFT Collection",
+    "image": "ipfs://bafybeihgn5tliq5tjnjgpljto5ifvo3azt33pzbu77vxob2qaxgzf2wtc4/1998.png",
+    "dna": "f3e472cf89e3c5c973d883c748fa9de111ea364f",
+    "edition": 1998,
+    "date": 1686696391622,
+    "imageSHA256": "ae63596d7c68464a00eb1058747ffc8a4149270b9438bf2a5db2de612b48d806"
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Yellow"
+      },
+      {
+        "trait_type": "Skin Tone",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Orange Coveralls"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Smile"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Open"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Medium Messy Surfer Cut Brown"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Dark Yellow Hard Hat with Lantern"
+      },
+      {
+        "trait_type": "Tool",
+        "value": "Nothing"
+      }
+    ],
+    "compiler": "bonaidea.pro",
+    "levels": [],
+    "stats": [],
+    "asset type": "picture",
+    "explicit": false,
+    
+  }

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlowiseAI API Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <script type="module">
+      import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+      Chatbot.init({
+        chatflowid: "74e06301-2529-462d-8081-12a90091c67c",
+        apiHost: "http://165.22.255.145:3000",
+          theme: {
+            button: {
+                backgroundColor: "#09090b",
+            },
+            chatWindow: {
+                welcomeMessage: "Hello! This is custom welcome message",
+                backgroundColor: "#ffffff",
+                height: 700,
+                width: 400,
+                fontSize: 16,
+                poweredByTextColor: "#ffffff",
+                botMessage: {
+                    backgroundColor: "##db2777",
+                    textColor: "#303235",
+                    showAvatar: true,
+                    avatarSrc: "/public/hero.webp",
+                },
+                textInput: {
+                    placeholder: "Type your question",
+                    backgroundColor: "#ffffff",
+                    textColor: "#303235",
+                    sendButtonColor: "#09090b",
+                },
+                userMessage: {
+                    backgroundColor: "#09090b",
+                    textColor: "#ffffff",
+                    showAvatar: true,
+                    avatarSrc: "/public/hero.webp",
+                },
+          }
+        }
+      })
+  </script>
+    <div class="container mx-auto px-4 max-w-4xl">
+      <header class="flex justify-between py-6">
+        <div class="text-2xl font-bold">AutoMasters</div>
+        <nav>
+          <ul class="flex gap-4 items-center text-sm">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <button
+                class="border py-2 px-4 rounded-xl  text-white self-start hover:opacity-80 text-xs uppercase"
+                href="#"
+              >
+                Cart (0)
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="py-6 grid grid-cols-2 items-center gap-2">
+        <div class="flex flex-col gap-2">
+          <h1 class="text-6xl uppercase font-extrabold ">
+            We Sell the
+            <span >TOUGHEST</span> Cars
+          </h1>
+          <button
+            class="border py-2 px-4 rounded-xl bg-black-600 text-white self-start hover:opacity-80 text-xs uppercase"
+            href="#"
+          >
+            Browse Products
+          </button>
+        </div>
+        <div>
+          <div class="overflow-hidden rounded-br-2xl rounded-tl-2xl">
+            <img src="/public/hero.webp" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured -->
+      <section class="py-6">
+        <h3 class="pb-4 text-2xl">Featured Cars</h3>
+
+        <!-- list of products -->
+        <ul class="grid grid-cols-2 items-center gap-2">
+          <li
+            class="p-4  rounded-xl hover:opacity-90 flex flex-col gap-2"
+          >
+            <div class="h-32 overflow-hidden rounded-xl">
+              <img
+                class="w-full h-full object-cover"
+                src="/public/a.jpg"
+                alt=""
+              />
+            </div>
+            <h1 class="text-lg font-semibold">Land Cruiser ZX</h1>
+            <small>$2.00</small>
+            <p class="text-xs">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis expedita earum corruption.
+            </p>
+            <button
+              class="border py-2 px-4 rounded-xl  text-white self-start hover:opacity-80 text-xs uppercase"
+              href="#"
+            >
+              Contact Us
+            </button>
+          </li>
+
+          <li
+            class="p-4  rounded-xl hover:opacity-90 flex flex-col gap-2"
+          >
+            <div class="h-32 overflow-hidden rounded-xl">
+              <img
+                class="w-full h-full object-cover"
+                src="/public/b.jpg"
+                alt=""
+              />
+            </div>
+            <h1 class="text-lg font-semibold">Land Cruiser 2008</h1>
+            <small>$2.00</small>
+            <p class="text-xs">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis expedita earum corruption.
+            </p>
+            <button
+              class="border py-2 px-4 rounded-xl  text-white self-start hover:opacity-80 text-xs uppercase"
+              href="#"
+            >
+              Contact Us
+            </button>
+          </li>
+
+          <li
+            class="p-4  rounded-xl hover:opacity-90 flex flex-col gap-2"
+          >
+            <div class="h-32 overflow-hidden rounded-xl">
+              <img
+                class="w-full h-full object-cover"
+                src="/public/c.jpg"
+                alt=""
+              />
+            </div>
+            <h1 class="text-lg font-semibold">Toyota Cygnus</h1>
+            <small>$2.00</small>
+            <p class="text-xs">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis expedita earum corruption.
+            </p>
+            <button
+              class="border py-2 px-4 rounded-xl  text-white self-start hover:opacity-80 text-xs uppercase"
+              href="#"
+            >
+              Contact Us
+            </button>
+          </li>
+
+          <li
+            class="p-4  rounded-xl hover:opacity-90 flex flex-col gap-2"
+          >
+            <div class="h-32 overflow-hidden rounded-xl">
+              <img
+                class="w-full h-full object-cover"
+                src="/public/d.jpg"
+                alt=""
+              />
+            </div>
+            <h1 class="text-lg font-semibold">Land Cruiser 2022</h1>
+            <small>$2.00</small>
+            <p class="text-xs">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis expedita earum corruption.
+            </p>
+            <button
+              class="border py-2 px-4 rounded-xl  text-white self-start hover:opacity-80 text-xs uppercase"
+              href="#"
+            >
+              Contact Us
+            </button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
